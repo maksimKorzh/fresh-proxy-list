@@ -4,14 +4,14 @@ whether the REMOTE_ADDR has been change using 'https://www.httpbin.org/ip' and s
 them into list. Writing 'proxyList' into file is also supported
 
 # Documentation
-    proxyList - variable that stores tested proxies
+                 proxyList - variable that stores tested proxies
     
     init_proxy_list(limit) - main routine, initializes proxyList.
-                            'limit' arg  is optional, it defines
-                            how many proxies to store.
+                             'limit' arg  is optional, it defines
+                             how many proxies to store.
     
-    write_to_file() - write 'proxyList' to file. 'proxyList' must
-                      contain at least one entry.
+           write_to_file() - write 'proxyList' to file. 'proxyList' must
+                             contain at least one entry.
 
 # Usage example
 
