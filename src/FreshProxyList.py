@@ -28,7 +28,7 @@ def init_proxy_list(*args):
         anonym = row.contents[4].text
         secconn = row.contents[6].text
         
-        if secconn == 'yes' and anonym == 'anonymous' or anonym == 'elite proxy':
+        if(secconn == 'yes' and (anonym == 'anonymous' or anonym == 'elite proxy')):
             line = 'http://' + ip + ':' + port
             proxies = { 'http': line, 'https': line }
             print('Probing proxy:', line)
