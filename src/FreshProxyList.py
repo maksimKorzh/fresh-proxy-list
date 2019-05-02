@@ -15,7 +15,7 @@ rows = table.find_all('tr')     # fidn list of all rows in table
 
 def init_proxy_list(*args):
     '''
-    Function defines each single row in a table with corresponding values,
+    Function associates each single row in a table with corresponding values,
     extracts only those proxies that support 'https' and typed as 'anonymous'
     or 'elite proxy', tests each proxy via connecting to 'https://www.httpbin.org/ip'
     and if response returns the corresponding IP then the proxy is appended to list.
