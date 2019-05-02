@@ -1,6 +1,6 @@
 # Fresh proxy list
 A simple library that scrapes proxies from 'https://free-proxy-list.net' website, tests
-whether the REMOTE_ADDR has been change using 'https://www.httpbin.org/ip' and stores
+whether the REMOTE_ADDR has been changed using 'https://www.httpbin.org/ip' and stores
 them into list. Writing 'proxyList' into file is also supported
 
 # Documentation
